@@ -1,0 +1,29 @@
+body {
+    background: #D5E6E4;
+    
+}
+
+#page {    
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#page-header {
+    text-align: center;
+}
+
+#quote-card {
+    width: 70%;
+    height: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    background: #FFF4EC;
+}
+
+#quote {
+    padding: 1% 1% 1% 1%;
+    background
+    height: 500px;
+    font-family: Oxygen;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Quote Machine</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+</head>
+
+<body onload="select_qoute()">
+    <div class="container-fluid">
+        <div id="page">
+            <div id="page-header">
+                <h1>Random Quote Machine</h1>
+                <p> Below is a collection of some of my favorite programming quotes.</p>
+
+                <button id="generate-button" onclick="select_qoute()">Generate A New Quote</button>
+                <br>
+                <br>
+                    <div id="quote-card">
+                        <p id="quote"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
